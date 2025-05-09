@@ -8,7 +8,7 @@ Because using Unity's physics components in order to calculate collisions are co
 Most of the implementations of this pattern in Unity does not work. Also they are unnecessary complex.
 You can use this template to understand how Spatial Partition works.
 This project includes two scenes . "SpatialPartititon" scene is the one that implements this pattern and "TestCase" scene is the one that works default physics components rather than the spatial partition.
-Player has ability to spawn bullets that destroy enemies on impact. Each bullet spawns other 8 bullets if they interact with an enemy (This makes the "TestScene" crash because that creates lots of enemies). Also each bullet has it's lifespan. While multiplying , new bullet inherits the lifetime of the old bullet.
+Player has ability to spawn bullets that destroy enemies on impact. Each bullet spawns other 8 bullets if they interact with an enemy (This makes the "TestScene" crash because that creates lots of enemies). Also each bullet has it's lifespan. While multiplying , new bullet inherits the lifetime of the old bullet. Player can be moved by using W,A,S and D keys.
 
 
 # Performance Metrics
