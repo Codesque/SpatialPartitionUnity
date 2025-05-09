@@ -13,5 +13,5 @@ Player has ability to spawn bullets that destroy enemies on impact. Each bullet 
 
 # Performance Metrics
 <img src="./ezgif-6a72525d9d5fc2.gif" width="100%">
-While moving the player across the game world , before the FPS is down below 30 , 20.000 Enemy entities are spawned on the "Spatial Partition" scene and 1200 entities are spawned on "Test Case" scene.
-Overall performance is improved by %1600 without using any multithreading library or framework.
+Before the FPS is down below 30 , 20.000 Enemy entities are spawned on the "Spatial Partition" scene and 1200 entities are spawned on "Test Case" scene while moving the player across the game world .
+Overall performance is improved by %1600 without using any multithreading libraries or frameworks.
